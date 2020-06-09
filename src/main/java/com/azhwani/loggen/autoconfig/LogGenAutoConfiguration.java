@@ -17,6 +17,7 @@ public class LogGenAutoConfiguration {
 	@Bean
 	@ConditionalOnMissingBean
 	public JSONLog jsonLog() {
+		//
 		return new JSONLog();
 	}
 	
